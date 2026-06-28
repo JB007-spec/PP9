@@ -117,6 +117,16 @@ Reflection:
 
 * **Explain how each flowchart node maps to your C code.**
 
+Start: int calculate(int x)
+Initialize Result =1: int result=1
+i=1 to x: for (int i=1; i <=x; i++)
+i%2==0: if(i % 2==0) {yes} else {no}
+result +=i: "in if yes"
+result *=i: "in if no"
+result > 1000: id (result = 100)
+Increment i: i++ of the for loop 
+Return result: result of the for loop 
+
 ---
 
 ### Task 3: Code-to-Flowchart
